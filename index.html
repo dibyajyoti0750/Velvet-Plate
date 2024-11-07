@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Velvet Plate - A Journey of Fine Taste</title>
+    <link rel="icon" href="./assets/food_16224908.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Limelight&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="background-color: #121212">
+    <nav class="navbar navbar-expand-lg sticky-top custom-navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./assets/food_16224908.png"
+            alt="Logo"
+            width="40"
+            height="35"
+            class="d-inline-block align-middle"
+          />
+          &nbsp;<span>Velvet Plate</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Reservations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2 search-input"
+              type="search"
+              placeholder="Search dishes"
+            />
+            <button class="btn search-btn" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hero-section">
+      <div class="hero-overlay text-center">
+        <h1
+          class="hero-title display-4 fw-bold"
+          style="font-family: Limelight, sans-serif"
+        >
+          Welcome to Velvet Plate
+        </h1>
+        <p class="hero-subtitle fw-semibold">Where Elegance Meets Flavor</p>
+        <button class="btn button-87">Explore Menu</button>
+      </div>
+    </div>
+
+    <section class="container mb-5 feat-menu">
+      <h1
+        class="text-center mt-5 pb-4 text-white"
+        style="font-family: Fredericka the Great, serif"
+      >
+        Featured Menu
+      </h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="https://images.pexels.com/photos/13350094/pexels-photo-13350094.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Classic Margherita</h5>
+              <p class="card-text fw-light">
+                Mozzarella, tomato sauce, and basil on a thin crust. Simple,
+                fresh, and delicious.
+              </p>
+              <p class="fw-bold price">&#8377;2000</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="https://images.pexels.com/photos/8697543/pexels-photo-8697543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Garlic Butter Shrimp</h5>
+              <p class="card-text fw-light">
+                Juicy shrimp in garlic butter with herbs and lemon zest. Rich
+                and savory.
+              </p>
+              <p class="fw-bold price">&#8377;1800</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="https://images.pexels.com/photos/18698241/pexels-photo-18698241/free-photo-of-food-photography.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Herb Grilled Fish</h5>
+              <p class="card-text fw-light">
+                Seasoned and grilled with citrus glaze. A light, refreshing
+                seafood delight.
+              </p>
+              <p class="fw-bold price">&#8377;2300</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="chef-special pb-5" style="background-color: #1a1a1a">
+      <div class="container">
+        <h1
+          class="text-center text-white pt-5 pb-4"
+          style="font-family: Fredericka the Great, serif"
+        >
+          Chef's Special
+        </h1>
+        <div class="card mb-3 special-card">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="https://cdn.pixabay.com/photo/2021/02/03/13/54/shanghai-5978060_1280.jpg"
+                class="img-fluid h-100"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div
+                class="card-body h-100 justify-content-center special-card-body"
+              >
+                <h5 class="card-title fs-1 fw-bold">Shanghai Cupcakes</h5>
+                <p class="card-text">
+                  A Chef's Special fusion dessert, these cupcakes blend matcha
+                  sponge with jasmine tea essence, topped with lychee
+                  buttercream and mandarin glaze. Finished with a sprinkle of
+                  sesame brittle, each bite offers a delicate mix of floral,
+                  sweet, and nutty flavors, evoking the vibrant charm of
+                  Shanghai.
+                </p>
+                <p class="card-text fw-bold special-price">
+                  <span class="text-white">Price:</span> &#8377;1599
+                </p>
+                <button class="btn button-87 reserve-now-btn">
+                  Reserve Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reservations mt-3">
+      <div class="container py-4">
+        <h1
+          class="text-center text-white pt-1 pb-4"
+          style="font-family: Fredericka the Great, serif"
+        >
+          Make a Reservation
+        </h1>
+        <form class="row g-3">
+          <div class="col-6">
+            <input type="text" class="form-control" placeholder="Name" />
+          </div>
+          <div class="col-6">
+            <input type="email" class="form-control" placeholder="Email" />
+          </div>
+          <div class="col-6">
+            <input type="date" class="form-control" />
+          </div>
+          <div class="col-6">
+            <input type="time" class="form-control" />
+          </div>
+          <div class="col-12">
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              placeholder="Special requests"
+              rows="3"
+            ></textarea>
+          </div>
+          <div class="col-auto">
+            <button
+              type="submit"
+              class="btn btn-warning fw-semibold btn-lg mb-1"
+            >
+              Book a Table
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="contacts pt-5 pb-4">
+      <h1
+        class="text-center text-white pb-4"
+        style="font-family: Fredericka the Great, serif"
+      >
+        Contact Us
+      </h1>
+      <div class="container d-flex justify-content-center flex-wrap">
+        <div class="col-md-5 col-12 me-md-4 mb-5">
+          <form class="row g-3">
+            <div>
+              <input type="text" class="form-control" placeholder="Name" />
+            </div>
+            <div>
+              <input type="email" class="form-control" placeholder="Email" />
+            </div>
+            <div>
+              <textarea
+                class="form-control"
+                placeholder="Message"
+                rows="5"
+              ></textarea>
+            </div>
+            <div>
+              <button
+                type="submit"
+                class="btn btn-warning fw-semibold btn-lg mb-1"
+              >
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-5 col-12 text-white">
+          <h4>Location</h4>
+          <p>
+            123 Culinary Crescent, Epicurean District, Flavor Town, FT 56789,
+            United Kingdom
+          </p>
+          <h4>Hours</h4>
+          <p>
+            Monday - Thursday: 5:00 PM - 10:00 PM <br />
+            Friday - Saturday: 5:00 PM - 11:00 PM <br />
+            Sunday: 4:00 PM - 9:00 PM
+          </p>
+          <h4>Phone</h4>
+          <p>+91 1234567890</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-4">
+      <div class="container">
+        <div class="d-flex justify-content-center mb-3">
+          <a href="#" class="social-icon">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+        </div>
+        <p class="d-flex justify-content-center text-white">
+          &copy; 2024 Restaurant Name. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
